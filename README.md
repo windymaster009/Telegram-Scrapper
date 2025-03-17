@@ -25,7 +25,16 @@
   pip install --upgrade telethon
 ```
 
+* You need to install both Pyrogram and Telethon:
+```bash
+  pip install telethon pyrogram tgcrypto
+```
 
+# How This Works
+
+* Step 1: Use Pyrogram to fetch as many members as possible.
+* Step 2: If Pyrogram doesn't get all members, fall back to Telethon.
+* Step 3: Save members from both libraries into `members.csv`
 
 ### MANAGER.py
 
