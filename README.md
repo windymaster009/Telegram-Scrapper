@@ -37,7 +37,7 @@
 6. Choose the first option for new accounts or the second to add to existing ones.
 7. Enter values and type 'y' for multiple accounts.
 
-   > [!CAUTION]
+> [!CAUTION]
 > Accounts are stored in `Vars.txt.` Do not delete it.
 
 8. To remove banned accounts, select the banfilter option. It will update `Vars.txt.`.
