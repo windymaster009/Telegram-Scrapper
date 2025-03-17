@@ -11,12 +11,12 @@ r = Fore.RED
 n = Fore.RESET
 lg = Fore.LIGHTGREEN_EX
 f = pyfiglet.Figlet(font='slant')
-banner = f.renderText('Genisys')
+banner = f.renderText('WinDy')
 print(r)
 print(banner)
 print(n)
-print('\n'+lg+'Genisys Account Manager V2.1'+n)
-print('Author: Cryptonian | TG- @Cryptonian_007\n')
+print('\n'+lg+'WinDy Account Manager'+n)
+print('Author: WinDy | TG_Scrapper\n')
 sleep(4)
 
 def clr():

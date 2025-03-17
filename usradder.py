@@ -26,10 +26,10 @@ sleep = g + '[' + w + 'SLEEP' + g + ']' + rs
 error = g + '[' + r + 'ERROR' + g + ']' + rs
 def banner():
     f = pyfiglet.Figlet(font='slant')
-    logo = f.renderText('Genisys')
+    logo = f.renderText('WinDy')
     print(random.choice(colors) + logo + rs)
-    print(f'{info}{g} Genisys Adder V2.1 by Cryptonian{rs}')
-    print(f'{info}{g} Telegram- @Cryptonian_007{rs}\n')
+    print(f'{info}{g} TG Adder V2.1 by Windy{rs}')
+    print(f'{info}{g} Telegram - Scraper{rs}\n')
 
 def clscreen():
     os.system('cls')

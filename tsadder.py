@@ -38,9 +38,9 @@ INPUT = lg + '[' + w + 'INPUT' + lg + ']' + rs
 plus = lg + '[' + w + '+' + lg + ']' + rs
 def banner():
     f = pyfiglet.Figlet(font='slant')
-    logo = f.renderText('Genisys')
+    logo = f.renderText('WinDy')
     print(random.choice(colors) + logo + rs)
-    print(f'{info}{lg} Genisys V2.1 by Cryptonian | TG - @Cryptonian_007{rs}')
+    print(f'{info}{lg} TG | TG - Adder{rs}')
 
 
 def clr():
