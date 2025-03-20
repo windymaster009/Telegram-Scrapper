@@ -35,6 +35,7 @@ while True:
     print(lg+'[3] Filter all banned accounts'+n)
     print(lg+'[4] List out all the accounts'+n)
     print(lg+'[5] Delete specific accounts'+n)
+    print(lg+'[6] Back to Main'+n)
     a = int(input('\nEnter your choice: '))
     if a == 1:
         with open('vars.txt', 'wb') as f:
@@ -153,3 +154,7 @@ while True:
         print(f'\n{lg}[+] Account Deleted{n}')
         input(f'{lg}Press enter to goto main menu{n}')
         f.close()
+    elif a == 6:
+        os.system("python main.py")
+    else:
+        print("Invalid choice! Try again.")
