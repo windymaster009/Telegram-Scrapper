@@ -6,7 +6,7 @@ from colorama import init, Fore
 import os
 from time import sleep
 
-init()
+init() 
 r = Fore.RED
 n = Fore.RESET
 lg = Fore.LIGHTGREEN_EX

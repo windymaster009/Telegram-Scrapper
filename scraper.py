@@ -10,7 +10,7 @@ from telethon.errors.rpcerrorlist import PhoneNumberBannedError, SessionPassword
 from telethon.tl.types import UserStatusRecently
 from pyrogram import Client
 from pyrogram.errors import FloodWait
-import time
+import time 
 
 # Initialize Colorama
 init()

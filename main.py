@@ -13,7 +13,7 @@ def main():
         if choice == "1":
             os.system("python manager.py")
         elif choice == "2":
-            os.system("python scrapper.py")
+            os.system("python scraper.py")
         elif choice == "3":
             script_name = input("Enter script name (e.g., example.py): ")
             os.system(f"python {script_name}")
